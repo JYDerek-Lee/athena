@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "athena"
+version = "0.1.0"
+description = ""
+authors = ["Derek <derek@cupist.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+inject = "^4.3.0"
+google-api-python-client = "^1.10.0"
+google-auth-httplib2 = "^0.0.4"
+google-auth-oauthlib = "^0.4.1"
+pprint = "^0.1"
+monkeytype = "^20.5.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pytest = "^6.0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
