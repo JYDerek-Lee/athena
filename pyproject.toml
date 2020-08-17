@@ -13,6 +13,7 @@ google-auth-httplib2 = "^0.0.4"
 google-auth-oauthlib = "^0.4.1"
 pprint = "^0.1"
 monkeytype = "^20.5.0"
+flask = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
